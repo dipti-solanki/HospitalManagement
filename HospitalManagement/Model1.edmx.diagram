@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a040a66839184b73a28afac1418b14eb" Name="Diagram1">
+        <EntityTypeShape EntityType="HospitalManagementDbModel.Appointment" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalManagementDbModel.Department" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalManagementDbModel.Doctor" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalManagementDbModel.Drug" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalManagementDbModel.HealthcareAssistant" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalManagementDbModel.Hospital" Width="1.5" PointX="1.5" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalManagementDbModel.Patient" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalManagementDbModel.Prescription" Width="1.5" PointX="8.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalManagementDbModel.Room" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalManagementDbModel.Staff" Width="1.5" PointX="3" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalManagementDbModel.Diagnostic" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalManagementDbModel.DrugTiming" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_Appointments_Doctors" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_Appointments_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_Departments_Hospitals" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_Doctors_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_Staffs_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_Diagnostics_Diagnostics" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_Diagnostics_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_Prescriptions_Doctors" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_DrugTiming_Drugs" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_DrugTiming_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_Patients_Rooms" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.FK_Prescriptions_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalManagementDbModel.Assigns" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
